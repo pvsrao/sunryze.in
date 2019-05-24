@@ -20,10 +20,13 @@ If you add a form field, you will need to add it here.
 $email_address = $_REQUEST['email_address'] ;
 $comments = $_REQUEST['comments'] ;
 $first_name = $_REQUEST['first_name'] ;
+$phone_no = $_REQUEST['Phone_no']
 $msg = 
 "First Name: " . $first_name . "\r\n" . 
 "Email: " . $email_address . "\r\n" . 
-"Comments: " . $comments ;
+"Comments: " . $comments "\r\n" . 
+"Phone Number:" .$phone_no; 
+
 
 /*
 The following function checks for email injection.
